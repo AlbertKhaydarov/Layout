@@ -51,7 +51,6 @@
 		7C16120F2AE92001000E6B9E = {
 			isa = PBXGroup;
 			children = (
-				84957D4B2AE9707000C59155 /* GometryReader.swift */,
 				7C16121A2AE92001000E6B9E /* Layout */,
 				7C1612192AE92001000E6B9E /* Products */,
 			);
@@ -70,6 +69,7 @@
 			children = (
 				7C16121B2AE92001000E6B9E /* LayoutApp.swift */,
 				7C16121D2AE92001000E6B9E /* ExampleStackView.swift */,
+				84957D4B2AE9707000C59155 /* GometryReader.swift */,
 				84957D482AE9635D00C59155 /* DynavicView */,
 				7C1612292AE92291000E6B9E /* ExampleHGridView.swift */,
 				84957D442AE95C2E00C59155 /* ExampleVGridView.swift */,

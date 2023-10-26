@@ -15,6 +15,7 @@ struct GometryReader: View {
                 Text("Offset: \(childPos, specifier: "%.0f")")
                 Spacer()
             }
+            .hidden(childPos > 160)
             .padding()
             
             ScrollView{
@@ -46,5 +47,11 @@ struct SizePreferenceKey: PreferenceKey {
 struct GometryReader_Previews: PreviewProvider {
     static var previews: some View {
         GometryReader()
+    }
+}
+
+extension View {
+    func hidden(_ shouldHide: Bool) -> some View {
+        opacity(shouldHide ? 0 : 1)
     }
 }
